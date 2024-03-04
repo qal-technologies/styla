@@ -1,4 +1,4 @@
-# styla
+# Styla
 
 Styla is a versatile CSS library designed to simplify the styling process for *HTML* and *React* elements. 
 With Styla, you can effortlessly apply styles to your elements using class (.) and id (#) selectors.
