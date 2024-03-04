@@ -17,10 +17,14 @@ With Styla, you can effortlessly apply styles to your elements using class (.) a
 
 To get started with Styla, simply include the library in your project and start applying styles using class and id selectors:
 
+
 *adding styla to a html document:*
+
 <link rel="stylesheet" href="styla.css">
 
+
 *adding styla to a jsx document:*
+
 import React from 'react';
 import './styla.css'; (replace with the path of your included styla file)
 
@@ -38,12 +42,16 @@ function MyComponent() {
 
 Once included, you can apply styles using class and id selectors just like you would with regular CSS:
 
+
 *using styla in html document:*
+
 <div class="styla-class" id="styla-id">
   <!-- Your content here -->
 </div>
 
+
 *using styla in jsx document:*
+
 function MyComponent() {
   return (
     <div class="styla-class" id="styla-id">
