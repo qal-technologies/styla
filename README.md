@@ -20,7 +20,7 @@ To get started with Styla, simply include the library in your project and start 
 
 *adding styla to a html document:*
 
-<link rel="stylesheet" href="styla.css">
+`<link rel="stylesheet" href="styla.css">`
 
 
 *adding styla to a jsx document:*
@@ -28,13 +28,13 @@ To get started with Styla, simply include the library in your project and start 
 import React from 'react';
 import './styla.css'; (replace with the path of your included styla file)
 
-function MyComponent() {
+`function MyComponent() {
   return (
     <div className="my-element">
       {/* Your content here */}
     </div>
   );
-}
+}`
 
 
 
@@ -45,20 +45,20 @@ Once included, you can apply styles using class and id selectors just like you w
 
 *using styla in html document:*
 
-<div class="styla-class" id="styla-id">
-  <!-- Your content here -->
-</div>
+`<div class="styla-class" id="styla-id">`
+  `<!-- Your content here -->`
+`</div>`
 
 
 *using styla in jsx document:*
 
-function MyComponent() {
+`function MyComponent() {
   return (
     <div class="styla-class" id="styla-id">
       {/* Your content here */}
     </div>
   );
-}
+}`
 
 
 
